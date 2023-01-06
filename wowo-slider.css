@@ -1,0 +1,35 @@
+body{}
+.wowo-slider{overflow: hidden;position: absolute;top: 0px;left: 0px;}
+.wowo-slider-item{overflow: hidden;display: inline-block;float: left;}
+.wowo-slider-next,
+.wowo-slider-prev{
+    width: 40px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+    line-height: 48px;
+    text-align: center;
+    font-size: 20px;
+    color: #cecbcb;
+    z-index: 2;
+    font-family: "宋体";
+    font-weight: bold;
+}
+.wowo-slider-prev{right: 0px;border-top-left-radius: 50%;border-bottom-left-radius: 50%;padding-left: 5px;}
+.wowo-slider-next{left: 0px;border-top-right-radius: 50%;border-bottom-right-radius: 50%;padding-right: 5px;}
+.wowo-slider-prev:hover,.wowo-slider-next:hover{background: rgba(0, 0, 0, 0.3);}
+
+/*下面是demo所需要的样式 非必须*/
+#wowo-slider-demo{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-red{background: red;text-align: center;line-height: 260px;font-size: 50px;font-weight: 500;color: white;}
+.bg-blue{background: blue;text-align: center;line-height: 260px;font-size: 50px;font-weight: 500;color: white;}
+.bg-yellowgreen{background: yellowgreen;text-align: center;line-height: 260px;font-size: 50px;font-weight: 500;color: white;}
+.bg-gray{background: grey;text-align: center;line-height: 260px;font-size: 50px;font-weight: 500;color: white;}
